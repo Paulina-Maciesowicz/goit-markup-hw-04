@@ -164,6 +164,7 @@ figure {
 /* -----------------------MAIN------------------------ */
 /* -----------------------MAIN-hero------------------- */
 .hero {
+    background-image: url('adres zdjęcia');
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
