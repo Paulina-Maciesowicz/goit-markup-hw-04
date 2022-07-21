@@ -225,9 +225,8 @@ h4 {
 }
 
 /* -----------------main-third-section-------------- */
-.background {
+.third-background {
     background-color: #F5F4FA;
-    width: 1600px;
     height: 648px;
 }
 .box-person{
@@ -248,28 +247,31 @@ h4 {
     gap: 30px;
 }
 /*-------------------box-with-social-icons------------#FFFFFF*/
-.container-social{
+.container-social {
     width: 206px;
     height: 56px;
 }
 .icon-i-44 {
-    width:44px;
-    height:44px;
-    border: 1px solid #03a9f4;
-    text-align: center;
+    fill: #afacac;
+    
+    padding: 10px;
 }
-.icon:hover {
-        fill: #03a9f4;
-      }
+.icon-i-44:hover {
+    fill: #ffffff;
+}
+.circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    }
+.circle:hover {
+    background-color: #2196F3;
+}
+
 /* --------------------MAIN-END---------------------- */
 /* --------------------FOOTER------------------------ */
-.footer-description {
-    background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
-    padding-left: 200px;
-    padding-top: 60px;
-
+.footer-background {
+    background-color: #2F303A;  
 }
 .navigation-logo-2 {
     text-decoration: none;
