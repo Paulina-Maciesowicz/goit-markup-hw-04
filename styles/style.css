@@ -157,7 +157,6 @@ fill:rgba(33, 150, 243, 1);
 .icon-box {
    width: 16px;
 }
-
 /* --------------------HEADER-END--------------------- */
 /* -----------------------MAIN------------------------ */
 /* -----------------------MAIN-hero------------------- */
@@ -182,9 +181,13 @@ h1 {
 }
 
 /* -------------main-first-section------------------- */
-.box{
+.box {
     padding:25px;
     margin-bottom:30px;
+    width:270; 
+    height:120;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 .text-title {
     font-weight: 700;
@@ -284,9 +287,6 @@ h4 {
 .i-20:hover {
     fill:#ffffff;
 } 
-.icon {
-    color #fff;
-}
 /*--------------------section-our-clients----------- */
 .client-container {
     padding-left: 15px;
