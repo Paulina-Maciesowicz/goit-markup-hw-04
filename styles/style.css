@@ -150,6 +150,10 @@ figure {
 .contact-link:hover {color: rgba(33, 150, 243, 1);}
 .contact-link:focus {color: rgba(33, 150, 243, 1);}
 
+svg:hover {
+fill:rgba(33, 150, 243, 1);
+}
+
 .icon-box {
    width: 16px;
 }
@@ -178,6 +182,10 @@ h1 {
 }
 
 /* -------------main-first-section------------------- */
+.box{
+    padding:25px;
+    margin-bottom:30px;
+}
 .text-title {
     font-weight: 700;
     font-size: 14px;
