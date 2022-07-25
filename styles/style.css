@@ -88,10 +88,14 @@ figure {
 .button-style:hover {
     background-color: #2196f3;
     color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 .button-style:focus {
     background-color: #2196f3;
     color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 /* ----------------COMPONENTS-END-------------------- */
@@ -184,8 +188,8 @@ h1 {
 .box {
     padding:25px;
     margin-bottom:30px;
-    width:270; 
-    height:120;
+    width: 270px; 
+    height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -324,7 +328,7 @@ h4 {
 /* --------------------MAIN-END---------------------- */
 /* --------------------FOOTER------------------------ */
 .footer-background {
-    background-color: #2F303A;  
+    background-color: #2F303A;
 }
 .navigation-logo-2 {
     text-decoration: none;
@@ -360,7 +364,11 @@ h4 {
 }
 /*-------------------box-with-social-icons-footer----*/
 .box-navigation-footer {
-width: 246px;
+    width: 246px;
+}
+.box-navigation-footer-2 {
+    width: 206px;
+    height: 80px;
 }
 .social-icon {
     width: 44px;
@@ -421,6 +429,14 @@ width: 246px;
     color: #757575;
     margin: 0 auto;
     letter-spacing: 0.06em;
+}
+.box-shadow:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+.box-shadow:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
 }
 
 /* --------------------PORTFOLIO-end----------------- */
