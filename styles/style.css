@@ -23,6 +23,9 @@
     justify-content: center;
     align-items: center;   
 }
+.display {
+    display: flex;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
@@ -140,6 +143,7 @@ figure {
 .contact {
     display: flex;
     margin-left: 371px;
+    align-items: center;
 }
 .contact-link {
     text-decoration: none;
@@ -152,14 +156,24 @@ figure {
     margin-left: 50px;
 }
 .contact-link:hover {color: rgba(33, 150, 243, 1);}
-.contact-link:focus {color: rgba(33, 150, 243, 1);}
-
-svg:hover {
-fill:rgba(33, 150, 243, 1);
+.contact-link:hover svg{color: rgba(33, 150, 243, 1);
+fill:var(--main-color);
 }
-
-.icon-box {
-   width: 16px;
+.contact-link:focus {color: rgba(33, 150, 243, 1);}
+.contact-link:focus svg{color: rgba(33, 150, 243, 1);
+fill:var(--main-color);
+}
+.mail {
+    width:16px;
+    height:12px;
+    margin-right: 10px;
+    fill: #757575;
+}
+.phone {
+    width:10px;
+    height:16px;
+    margin-right: 10px;
+    fill: #757575;
 }
 /* --------------------HEADER-END--------------------- */
 /* -----------------------MAIN------------------------ */
@@ -369,6 +383,7 @@ h4 {
 .box-navigation-footer-2 {
     width: 206px;
     height: 80px;
+    margin-left: 70px;
 }
 .social-icon {
     width: 44px;
